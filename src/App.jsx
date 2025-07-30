@@ -30,6 +30,7 @@ import SuccessPayment from "./pages/SuccessPayment";
 import CancelPayment from "./pages/CancelPayment";
 import ReviewEntry from "./pages/ReviewEntry";
 import AboutUs from "./components/AboutUs";
+import Freelancer from "./components/Freelancer";
 import CartPage from "./pages/Cart";
 
 function App() {
@@ -81,6 +82,7 @@ function App() {
           <Route path="/terms-conditions" element={<TermsConditions />} />
           <Route path="/cancellation-refund" element={<CancellationRefund />} />
           <Route path="/shipping-delivery" element={<ShippingDelivery />} />
+          <Route path="/freelancer" element={<Freelancer />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/success" element={<SuccessPayment />} />
@@ -94,7 +96,7 @@ function App() {
             <Route path="/Painting/:id/update" element={<ArtUpdatePage />} />
             <Route path="/Painting/:id" element={<ArtDetailsPage />} />
             <Route path="/Painting/:id/Payment" element={<ArtPayment />} />
-
+            <Route path="/Myorder" element={<MyOrder />} />
             <Route path="/Illustration/:id" element={<IllustrationDetail />} />
             <Route path="/Illustration/:id/Portfolio" element={<Portfolio />} />
             <Route
@@ -105,7 +107,7 @@ function App() {
               path="/Illustration/:id/create"
               element={<IllustrationCreatePage />}
             />
-            <Route path="/Myorder" element={<MyOrder />} />
+            {/* <Route path="/Myorder" element={<MyOrder />} /> */}
             <Route path="/chat" element={<Chat />} />
           </Route>
         </Routes>
