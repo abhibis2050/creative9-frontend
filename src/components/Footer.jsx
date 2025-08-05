@@ -11,10 +11,10 @@ import {
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import Whatsapp from "../assets/whatsapp.png";
-import Fiverr from "../assets/fiverr.png";
-import Upwork from "../assets/upwork.png";
-import Etsy from "../assets/etsy.png";
-import Freelancer from "../assets/freelancer.png";
+import Fiverr from "../assets/fiverrLogo.png";
+import Upwork from "../assets/upworkLogo.png";
+import Etsy from "../assets/etsyLogo.png";
+import Freelancer from "../assets/freelancerLogo.png";
 
 const Footer = () => {
   return (
@@ -199,7 +199,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.freelancer.com/u/creativevalley9">
+                  <a
+                    href="https://www.freelancer.com/u/creativevalley9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       src={Freelancer}
                       alt=""
